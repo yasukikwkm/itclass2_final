@@ -1,0 +1,21 @@
+h1{color:black;
+}
+
+body{
+ background-image: url("./eno.JPG");
+ background-size: cover;
+}
+section{
+  width: 700px;
+  margin: auto;
+}
+
+.map{
+  float: left;
+}
+
+.question{
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
