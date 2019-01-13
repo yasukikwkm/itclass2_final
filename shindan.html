@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>診断ページ</title>
+  <link rel="stylesheet" href="./2final.css">
+  <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+  <script src="./shindan.js"></script>
+  <script src="./jq.js"></script>
+</head>
+
+<body>
+ <h1><font face="Tsukushi A Round Gothic,筑紫A丸ゴシック">あなたのタイプは？</h1>
+
+<h3>あなたはサポートするのに向いていますか？</h3>
+<label><input type="radio" name="res1" id="yes1" >はい</label>
+<label><input type="radio" name="res1" id="no1" >いいえ</label>
+
+<h3>船は好きですか</h3>
+
+<label><input type="radio" name="res2" id="yes2" >はい</label>
+<label><input type="radio" name="res2" id="no2" >いいえ</label><br>
+
+<input type="button" value="判定" onclick="shindan()">
+
+</body>
+</html>
